@@ -1,0 +1,145 @@
+/* FONTS */
+/* Used for paragraphs */
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+/* Used for headings */
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Martel-Light;
+    src: url(../font/Martel-Light.ttf);
+}
+@font-face {
+    font-family: Martel-Bold;
+    src: url(../font/Martel-Bold.ttf);
+}
+
+/* CUSTOM PROPERTIES */
+:root {
+
+    /* Colours */
+    --valley-red: #E02C35;
+    --valley-white: #FDFAF6;
+    --valley-black: #222222;
+
+    /* BREAKDOWN */
+
+    /* Headings */
+    --heading-line-height: 120%;
+    --heading-letter-spacing-montserrat: -3.5%;
+    --heading-letter-spacing-martel: 0%;
+
+    /* Paragraphs */
+    --paragraph-line-height: 140%;
+    --paragraph-letter-spacing: -3.5%;
+
+    /* Font sizes */
+    --size-96-px: 96px;
+    --size-72-px: 72px;
+    --size-70-px: 70px;
+    --size-60-px: 60px;
+    --size-48-px: 48px;
+    --size-42-px: 42px;
+    --size-36-px: 36px;
+    --size-32-px: 32px;
+    --size-28-px: 28px;
+    --size-24-px: 24px;
+    --size-20-px: 20px;
+    --size-16-px: 16px;
+    --size-12-px: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat-Bold;
+    background-color: var(--valley-white);
+}
+
+/* Navigation */
+#nav-checkbox, .nav-toggle {
+    display: none;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    transition: background-color 0.5s ease;
+}
+
+/* .logo {
+    position: absolute;
+} */
+
+.logo-valley-white {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 80px;
+    height: auto;
+}
+
+.logo-valley-red {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 80px;
+    height: auto;
+    display: none;
+}
+
+.logo:hover .logo-valley-red {
+    display: inline;
+    transition: 0.4s ease;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu li a {
+    color: var(--valley-white);
+    text-decoration: none;
+    font-size: var(--size-20-px);
+    padding: 0 15px;
+}
+
+.nav-menu li a:hover {
+    color: var(--valley-red);
+} 
+
+/* Classes for the JavaScript */
+.active {
+    background: var(--valley-black);
+}
+
+.active a:hover {
+    color: #fff;
+}
+
+/* Header */
+.case-study {
+    display: grid;
+    height: 100%;
+}
+
+.nike-img {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
