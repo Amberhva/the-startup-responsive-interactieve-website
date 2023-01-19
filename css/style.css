@@ -169,7 +169,7 @@ body {
 /* Case study introduction */
 .introduction-content > h4 {
     font-family: Martel-Light;
-    font-size: var(--size-32-px);
+    font-size: 1.5em;
     max-width: 19rem;
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-martel);
@@ -185,8 +185,9 @@ body {
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
     position: relative;
-    top: 0.3em;
-    left: 7em
+    top: 1em;
+    left: 1.3em;
+    max-width: 19rem;
 }
 
 .tags li {
@@ -195,4 +196,17 @@ body {
     display: inline-block;
     vertical-align: top;
     width: 8em;
+    margin-left: 0.1em;
+    margin-bottom: 0.3em;
  }
+
+.body-l-1{
+    font-family: Montserrat-Regular;
+    font-size: var(--size-20-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing);
+
+    display: flex;
+    flex-direction: column;
+    column-gap: 1em;
+}
