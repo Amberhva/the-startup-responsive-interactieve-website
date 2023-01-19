@@ -25,6 +25,7 @@
     /* Colours */
     --valley-red: #E02C35;
     --valley-white: #FDFAF6;
+    --valley-grey: #F4F4F5;
     --valley-black: #222222;
 
     /* BREAKDOWN */
@@ -65,6 +66,15 @@ body {
     background-color: var(--valley-white);
 }
 
+/* Classes for the JavaScript */
+.active {
+    background: var(--valley-black);
+}
+
+.active a:hover {
+    color: #fff;
+}
+
 /* Navigation */
 #nav-checkbox, .nav-toggle {
     display: none;
@@ -74,12 +84,13 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 0;
     transition: background-color 0.5s ease;
+    z-index: 1;
 }
 
 /* .logo {
@@ -123,16 +134,7 @@ body {
     color: var(--valley-red);
 } 
 
-/* Classes for the JavaScript */
-.active {
-    background: var(--valley-black);
-}
-
-.active a:hover {
-    color: #fff;
-}
-
-/* Header */
+/* Header case study */
 .case-study {
     display: grid;
     height: 100%;
@@ -143,3 +145,54 @@ body {
     max-height: 100vh;
     margin: auto;
 }
+
+.case-study-title {
+    font-family: Montserrat-Bold;
+    color: var(--valley-white);
+    position: absolute;
+    top: 8em; 
+    left: 1em;
+}
+
+.case-study-title > h3 {
+    font-size: var(--size-36-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+}
+
+.case-study-title > h6 {
+    font-size: var(--size-16-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+}
+
+/* Case study introduction */
+.introduction-content > h4 {
+    font-family: Martel-Light;
+    font-size: var(--size-32-px);
+    max-width: 19rem;
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-martel);
+
+    position: relative;
+    top: 0.2em;
+    left: 0.5em;
+}
+
+.tags {
+    font-family: Montserrat-Regular;
+    font-size: var(--size-12-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing);
+    position: relative;
+    top: 0.3em;
+    left: 7em
+}
+
+.tags li {
+    background-color: var(--valley-grey);
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 8em;
+ }

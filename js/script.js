@@ -1,4 +1,4 @@
-let gap = 50;
+let gap = 100;
 
 $(document).ready(function(){
     $(window).bind('scroll', function(){
