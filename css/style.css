@@ -127,7 +127,7 @@ body {
     color: var(--valley-white);
     text-decoration: none;
     font-size: var(--size-20-px);
-    padding: 0 15px;
+    padding: 0 1em;
 }
 
 .nav-menu li a:hover {
@@ -141,27 +141,28 @@ body {
 }
 
 .nike-img {
-    max-width: 100%;
+    max-width: 23em;
     max-height: 100vh;
-    margin: auto;
+    width: 100%;
 }
 
 .case-study-title {
     font-family: Montserrat-Bold;
     color: var(--valley-white);
-    position: absolute;
-    top: 8em; 
-    left: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: -5em;
+    padding: 1em;
 }
 
 .case-study-title > h3 {
-    font-size: var(--size-36-px);
+    font-size: 30px;
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-montserrat);
 }
 
 .case-study-title > h6 {
-    font-size: var(--size-16-px);
+    font-size: 13px;
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-montserrat);
 }
@@ -175,17 +176,17 @@ body {
     letter-spacing: var(--heading-letter-spacing-martel);
 
     position: relative;
-    top: 0.2em;
-    left: 0.5em;
+    top: 0.7em;
+    text-align: center;
 }
 
 .tags {
-    font-family: Montserrat-Regular;
+    font-family: Martel-Light;
     font-size: var(--size-12-px);
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
     position: relative;
-    top: 1em;
+    top: 2em;
     left: 1.3em;
     max-width: 19rem;
 }
@@ -201,12 +202,98 @@ body {
  }
 
 .body-l-1{
-    font-family: Montserrat-Regular;
-    font-size: var(--size-20-px);
+    font-family: Martel-Light;
+    font-size: 14px;
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
 
     display: flex;
     flex-direction: column;
     column-gap: 1em;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.body-l-2 {
+    font-family: Martel-Light;
+    font-size: 14px;
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing);
+
+    display: flex;
+    flex-direction: column;
+    margin-top: -1em;
+    padding: 1em;
+}
+
+.case-introduction h5 {
+    font-family: Montserrat-Bold;
+    font-size: var(--size-20-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    padding: 1em;
+}
+
+.body-l-3 {
+    font-family: Martel-Light;
+    font-size: 14px;
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing);
+
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+/* Facts and figures */
+.fact-and-figures {
+    color: var(--valley-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.fact-1 h3 {
+    font-family: Montserrat-Bold;
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+}
+
+.fact-1 {
+    background-color: var(--valley-black);
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    border-radius: 0.3em;
+    max-width: 20em;
+}
+
+.fact-2 h3 {
+    font-family: Montserrat-Bold;
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+}
+
+.fact-2 {
+    background-color: var(--valley-black);
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+.fact-3 h3 {
+    font-family: Montserrat-Bold;
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+}
+
+.fact-3 {
+    background-color: var(--valley-black);
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    border-radius: 0.3em;
 }
