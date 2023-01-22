@@ -105,18 +105,8 @@ body {
     height: auto;
 }
 
-.logo-valley-red {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 80px;
-    height: auto;
-    display: none;
-}
-
-.logo:hover .logo-valley-red {
-    display: inline;
-    transition: 0.4s ease;
+.logo-valley-white:hover {
+    cursor: pointer;
 }
 
 .nav-menu li {
@@ -130,10 +120,6 @@ body {
     padding: 0 1em;
 }
 
-.nav-menu li a:hover {
-    color: var(--valley-red);
-} 
-
 /* Header case study */
 .case-study {
     display: grid;
@@ -141,7 +127,7 @@ body {
 }
 
 .nike-img {
-    max-width: 23em;
+    max-width: 28em;
     max-height: 100vh;
     width: 100%;
 }
@@ -156,13 +142,13 @@ body {
 }
 
 .case-study-title > h3 {
-    font-size: 30px;
+    font-size: var(--size-36-px);
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-montserrat);
 }
 
 .case-study-title > h6 {
-    font-size: 13px;
+    font-size: var(--size-16-px);
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-montserrat);
 }
@@ -170,13 +156,13 @@ body {
 /* Case study introduction */
 .introduction-content > h4 {
     font-family: Martel-Light;
-    font-size: 1.5em;
-    max-width: 19rem;
+    font-size: var(--size-32-px);
+    max-width: 25rem;
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-martel);
 
     position: relative;
-    top: 0.7em;
+    top: 0.2em;
     text-align: center;
 }
 
@@ -202,8 +188,8 @@ body {
  }
 
 .body-l-1{
-    font-family: Martel-Light;
-    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-size: var(--size-20-px);
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
 
@@ -215,8 +201,8 @@ body {
 }
 
 .body-l-2 {
-    font-family: Martel-Light;
-    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-size: var(--size-20-px);
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
 
@@ -241,8 +227,8 @@ body {
 }
 
 .body-l-3 {
-    font-family: Martel-Light;
-    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-size: var(--size-20-px);
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
 
@@ -256,12 +242,32 @@ body {
     color: var(--valley-white);
     display: flex;
     flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.fact-1 h3 {
+.fact-title {
     font-family: Montserrat-Bold;
+    font-size: var(--size-36-px);
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-montserrat);
+}
+
+.fact-subtitle {
+    font-family: Martel-Light;
+    font-size: var(--size-20-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing);
+    margin: 1em 1em 2em 0;
+}
+
+.fact-info {
+    font-family: Martel-Light;
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing);
 }
 
 .fact-1 {
@@ -269,13 +275,7 @@ body {
     margin: 1em 1em 1em 1em;
     padding: 1em;
     border-radius: 0.3em;
-    max-width: 20em;
-}
-
-.fact-2 h3 {
-    font-family: Montserrat-Bold;
-    line-height: var(--heading-line-height);
-    letter-spacing: var(--heading-letter-spacing-montserrat);
+    max-width: 21em;
 }
 
 .fact-2 {
@@ -283,12 +283,7 @@ body {
     margin: 1em 1em 1em 1em;
     padding: 1em;
     border-radius: 0.3em;
-}
-
-.fact-3 h3 {
-    font-family: Montserrat-Bold;
-    line-height: var(--heading-line-height);
-    letter-spacing: var(--heading-letter-spacing-montserrat);
+    max-width: 21em;
 }
 
 .fact-3 {
@@ -296,4 +291,249 @@ body {
     margin: 1em 1em 1em 1em;
     padding: 1em;
     border-radius: 0.3em;
+    max-width: 21em;
+}
+
+/* Main content */
+.case-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-your-kit-content > img {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.create-your-kit-content > p {
+    font-family: Montserrat-Regular;
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing);
+
+    padding: 1em;
+}
+
+/* Create your kit content */
+.create-your-kit > h5 {
+    font-family: Montserrat-Bold;
+    font-size: var(--size-20-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+
+    padding: 1em;
+}
+
+.body-m-1 {
+    font-family: Montserrat-Regular;
+    font-size: var(--size-16-px);
+    line-height: var(--parahraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+
+    padding: 1.2em;
+}
+
+.body-m-2 {
+    font-family: Montserrat-Regular;
+    font-size: var(--size-16-px);
+    line-height: var(--parahraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+
+    padding: 1.2em;
+}
+
+/* Image gallery nike */
+.quote {
+    font-family: Montserrat-Regular;
+    font-size: var(--size-24-px);
+    line-height: var(--parahraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+
+    padding: 1.2em;
+}
+
+.signature {
+    font-family: Martel-Light;
+    color: var(--valley-red);
+    font-size: var(--size-16-px);
+    line-height: var(--parahraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+
+    padding: 1.2em;
+    position: relative;
+    max-width: 300px;
+    margin: 0.2em auto;
+    text-align: center;
+}
+
+.signature:before {
+    background: var(--valley-red);
+    content:" ";
+    display: block;
+    height: 0.1em;
+    width: 3em;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+}
+
+.image-gallery-nike > h5 {
+    font-family: Montserrat-Bold;
+    font-size: var(--size-20-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+    
+    padding: 2em 2em 0 1em;
+}
+
+/* Football jersey image gallery */
+.football-jersey-image-gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.football-jersey-image-gallery > h5 {
+    font-family: Montserrat-Bold;
+    font-size: var(--size-20-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+
+    padding: 1em;
+}
+
+/* Image gallery */
+.image-gallery > p {
+    font-family: Montserrat-Regular;
+    font-size: var(--size-16-px);
+    line-height: var(--parahraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+
+    padding: 1.2em;
+}
+
+/* Contact */
+.contact {
+    background-color: var(--valley-grey);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content > h6 {
+    font-family: Montserrat-Bold;
+    font-size: var(--size-16-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+
+    margin: 1em 0 0 0;
+    padding: 1em;
+}
+
+.contact-modal {
+    font-family: Montserrat-Bold;
+    color: var(--valley-white);
+    width: 169px;
+    height: 50px;
+    left: 162px;
+    top: 196px;
+
+    background: var(--valley-red);
+    border-radius: 42px;
+    border: 1px solid var(--valley-red);
+    margin: 4em 0 1em 0;
+}
+
+.contact-modal:hover {
+    cursor: pointer;
+}
+
+.chairmen {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.chairmen > img {
+    width: 200px;
+    height: 200px;
+    margin: 3em 0 0 0;
+}
+
+.name {
+    font-family: Montserrat-Bold;
+    color: var(--valley-red);
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+
+    margin: 0 0 0 -7em;
+    /* padding: 0 0 0 1em; */
+}
+
+.position {
+    font-family: Montserrat-Bold;
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+
+    margin: 0 0 0 -7em;
+    /* padding: 0 0 0 1em; */
+}
+
+.mail {
+    font-family: Martel-Light;
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-martel);
+
+    /* padding: 0 0 0 1em; */
+}
+
+/* Carousel */
+.carousel > h6 {
+    font-family: Montserrat-Bold;
+    color: var(--valley-red);
+    font-size: var(--size-16-px); 
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+
+    margin: 2em 0 3em 3em;
+}
+
+.carousel-intro > h4 {
+    font-family: Martel-Light;
+    font-size: var(--size-32-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-martel);
+
+   padding: 1em;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--valley-black);
+    color: var(--valley-white);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content > img {  
+    width: 100px;
+    height: 40px;
+
+    margin: 1em 0 0 1em;
+}
+
+.footer-content > h6 {
+    font-family: Martel-Light;
+    font-size: var(--size-16-px);
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-martel);
+
+    margin: 0.3em 0 1em 1em;
 }
