@@ -1,3 +1,4 @@
+// Navigation
 let gap = 80;
 
 $(document).ready(function(){
@@ -9,3 +10,5 @@ $(document).ready(function(){
         }
     });
 });
+
+// Modal contact form
