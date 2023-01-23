@@ -288,7 +288,7 @@ body {
 
 .fact-3 {
     background-color: var(--valley-black);
-    margin: 1em 1em 1em 1em;
+    margin: 1em 1em 5em 1em;
     padding: 1em;
     border-radius: 0.3em;
     max-width: 21em;
@@ -344,6 +344,18 @@ body {
 }
 
 /* Image gallery nike */
+.customize-desktop {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.customize-mobile {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+}
+
 .quote {
     font-family: Montserrat-Regular;
     font-size: var(--size-24-px);
@@ -393,6 +405,19 @@ body {
     flex-direction: column;
 }
 
+.football-jersey-back {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+    margin-bottom: 0.3em;
+}
+
+.football-jersey-front {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+}
+
 .football-jersey-image-gallery > h5 {
     font-family: Montserrat-Bold;
     font-size: var(--size-20-px);
@@ -403,6 +428,24 @@ body {
 }
 
 /* Image gallery */
+.player-playing-football {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.team-playing-football {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.duo-wearing-football-uniform {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+}
+
 .image-gallery > p {
     font-family: Montserrat-Regular;
     font-size: var(--size-16-px);
@@ -410,6 +453,7 @@ body {
     letter-spacing: var(--paragraph-letter-spacing-montserrat);
 
     padding: 1.2em;
+    margin-bottom: 3em;
 }
 
 /* Contact */
@@ -440,7 +484,7 @@ body {
     background: var(--valley-red);
     border-radius: 42px;
     border: 1px solid var(--valley-red);
-    margin: 4em 0 1em 0;
+    margin: 3em 0 1em 0;
 }
 
 .contact-modal-button:hover {
@@ -531,13 +575,26 @@ body {
 }
 
 .carousel-intro > img {
-    width: 70em;
-    height: 70em;
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
 }
 
 .carousel-intro > button {
     all: unset;
     cursor: pointer;
+}
+
+.the-valley-office {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.the-valley-bar {
+    max-width: 28em;
+    max-height: 100vh;
+    width: 100%;
 }
 
 /* Footer */
