@@ -429,7 +429,7 @@ body {
     padding: 1em;
 }
 
-.contact-modal {
+.contact-modal-button {
     font-family: Montserrat-Bold;
     color: var(--valley-white);
     width: 169px;
@@ -443,7 +443,7 @@ body {
     margin: 4em 0 1em 0;
 }
 
-.contact-modal:hover {
+.contact-modal-button:hover {
     cursor: pointer;
 }
 
@@ -460,14 +460,14 @@ body {
     margin: 3em 0 0 0;
 }
 
+/* Auke Meijer */
 .name {
     font-family: Montserrat-Bold;
     color: var(--valley-red);
     font-size: var(--size-16-px);
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing-montserrat);
-    margin: 0 0 0 -7em;
-    /* padding: 0 0 0 1em; */
+    margin: 0 0 0 -6em;
 }
 
 .position {
@@ -475,8 +475,7 @@ body {
     font-size: var(--size-16-px);
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing-montserrat);
-    margin: 0 0 0 -7em;
-    /* padding: 0 0 0 1em; */
+    margin: 0 0 0 -7.3em;
 }
 
 .mail {
@@ -484,8 +483,33 @@ body {
     font-size: var(--size-16-px);
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing-martel);
+    margin: 0 0 0 -3em;
+}
 
-    /* padding: 0 0 0 1em; */
+/* Philip Kok */
+.name-2 {
+    font-family: Montserrat-Bold;
+    color: var(--valley-red);
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+    margin: 0 0 0 -7em;
+}
+
+.position-2 {
+    font-family: Montserrat-Bold;
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+    margin: 0 0 0 -10em;
+}
+
+.mail-2 {
+    font-family: Martel-Light;
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-martel);
+    margin: 0 0 0 -2.3em;
 }
 
 /* Carousel */
@@ -504,6 +528,16 @@ body {
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-martel);
     padding: 1em;
+}
+
+.carousel-intro > img {
+    width: 70em;
+    height: 70em;
+}
+
+.carousel-intro > button {
+    all: unset;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -538,7 +572,7 @@ footer {
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
     list-style: none;
-    margin: 0.3em 0 1em 1em;
+    margin: 1em 0 1em 3em;
 }
 
 .social-media {
@@ -547,16 +581,24 @@ footer {
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
     list-style: none;
-    margin: 0.3em 0 1em 1em;
+    margin: 0.3em 0 3em 5em;
 }
 
 .line {
-    width: 15em;
+    width: 18em;
     opacity: 0.1;
-    border-bottom: 1px solid var(--valley-grey);
-    margin: 2em;
+    border: 1px solid var(--valley-grey);
+    margin: auto;
+    margin-bottom: 3em;
 }
 
-.footer-end {
+.footer-end > li {
+    font-family: Montserrat-Regular;
+    font-size: var(--size-16-px);
+    line-height: var(--paragraph-line-height);
+    letter-spacing: var(--paragraph-letter-spacing-montserrat);
+
+    margin: 1em 1em 1em 1em;
+    display: inline-block;;
     list-style: none;
 }
