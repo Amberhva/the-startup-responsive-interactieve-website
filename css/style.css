@@ -88,7 +88,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px 0;
+    padding: 1.25em 0;
     transition: background-color 0.5s ease;
     z-index: 1;
 }
@@ -171,7 +171,8 @@ body {
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing);
     position: relative;
-    top: 2em;
+    top: 1em;
+    margin: auto;
     max-width: 19rem;
 }
 
@@ -370,7 +371,7 @@ body {
     width: 3em;
     position: absolute;
     top: 50%;
-    left: -10px;
+    left: -0.625em;
 }
 
 .image-gallery-nike > h5 {
@@ -456,18 +457,22 @@ body {
 .contact-modal-button {
     font-family: Montserrat-Bold;
     color: var(--valley-white);
-    width: 169px;
-    height: 50px;
-    left: 162px;
-    top: 196px;
+    width: 10.5em;
+    height: 3.12em;
+    left: 10.12em;
+    top: 12.25em;
     background: var(--valley-red);
-    border-radius: 42px;
+    border-radius: 2.62em;
     border: 1px solid var(--valley-red);
-    margin: 3em 0 1em 0;
+    margin: 3em 0 2em 0;
 }
 
 .contact-modal-button:hover {
     cursor: pointer;
+}
+
+.contact-modal-button > h5 {
+    font-size: var(--size-16-px);
 }
 
 .chairmen {
@@ -478,8 +483,8 @@ body {
 }
 
 .chairmen > img {
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12.5em;
     margin: 3em 0 0 0;
 }
 
@@ -536,21 +541,21 @@ body {
 }
 
 /* Carousel */
-.carousel > h6 {
-    font-family: Montserrat-Bold;
-    color: var(--valley-red);
-    font-size: var(--size-16-px); 
-    line-height: var(--heading-line-height);
-    letter-spacing: var(--heading-letter-spacing-montserrat);
-    margin: 3em 0 5em 5em;
-}
-
 .carousel-intro > h4 {
     font-family: Martel-Light;
     font-size: var(--size-32-px);
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-martel);
     padding: 1em;
+}
+
+.carousel > h6 {
+    font-family: Montserrat-Bold;
+    color: var(--valley-red);
+    font-size: var(--size-16-px); 
+    line-height: var(--heading-line-height);
+    letter-spacing: var(--heading-letter-spacing-montserrat);
+    margin: 2em 0 3em 3.5em;
 }
 
 .carousel-intro > img {
@@ -590,8 +595,8 @@ footer {
 }
 
 .footer-content > img {  
-    width: 100px;
-    height: 40px;
+    width: 6.25em;
+    height: 2.5em;
     margin: 1em 0 0 1em;
 }
 
@@ -634,7 +639,7 @@ footer {
     font-size: var(--size-16-px);
     line-height: var(--paragraph-line-height);
     letter-spacing: var(--paragraph-letter-spacing-montserrat);
-    margin: 1em 1em 1em 1em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
     display: inline-block;;
     list-style: none;
 }
@@ -664,7 +669,7 @@ footer {
 
     .introduction-content > h4 {
         font-family: Martel-Light;
-        font-size: var(--size-32-px);
+        font-size: var(--size-36-px);
         max-width: 100vw;
         line-height: var(--heading-line-height);
         letter-spacing: var(--heading-letter-spacing-martel);
@@ -692,62 +697,211 @@ footer {
         margin-bottom: 0.3em;
      }
 
+     .body-l-1{
+        font-size: var(--size-24-px);
+    }
+    
+    .body-l-2 {
+        font-size: var(--size-24-px);
+    }
+
+    .case-introduction h5 {
+        font-size: var(--size-32-px);
+    }
+    
+    .body-l-3 {
+        font-size: var(--size-24-px);
+    }
+
+    /* Facts and figures */
+    .fact-title {
+        font-family: Montserrat-Bold;
+        font-size: var(--size-48-px);
+        line-height: var(--heading-line-height);
+        letter-spacing: var(--heading-letter-spacing-montserrat);
+    }
+    
+    .fact-subtitle {
+        font-family: Martel-Light;
+        font-size: var(--size-24-px);
+        line-height: var(--paragraph-line-height);
+        letter-spacing: var(--paragraph-letter-spacing);
+        margin: 1em 1em 2em 0;
+    }
+    
+    .fact-info {
+        font-family: Martel-Light;
+        font-size: var(--size-20-px);
+        line-height: var(--paragraph-line-height);
+        letter-spacing: var(--paragraph-letter-spacing);
+    }
+    
+    .fact-1 {
+        padding: 2em;
+        max-width: 29em;
+    }
+    
+    .fact-2 {
+        padding: 2em;
+        max-width: 29em;
+    }
+    
+    .fact-3 {
+        padding: 2em;
+        max-width: 29em;
+    }
+
+    /* Main content */
+    .create-your-kit-content > p {
+        font-size: var(--size-20-px);
+    }
+    
+    /* Create your kit content */
+    .create-your-kit > h5 {
+        font-size: var(--size-32-px);
+    }
+    
+    .body-m-1 {
+        font-size: var(--size-20-px);
+    }
+    
+    .body-m-2 {
+        font-size: var(--size-20-px);
+    }
+
+    .quote {
+        font-size: var(--size-28-px);
+    }
+    
+    .signature {
+        font-size: var(--size-20-px);
+    }
+    
+    .signature:before {
+        background: var(--valley-red);
+        content:" ";
+        display: block;
+        height: 0.1em;
+        width: 5em;
+        position: absolute;
+        top: 50%;
+        left: -5em;
+    }
+
+    .image-gallery-nike > h5 {
+        font-size: var(--size-32-px);
+    }
+
+    .football-jersey-image-gallery > h5 {
+        font-size: var(--size-32-px);
+    }
+
     /* Contact */
+    .contact-content > h6 {
+        font-size: var(--size-20-px);
+    }
+
     .chairmen > img {
-        width: 300px;
-        height: 300px;
+        width: 18.75em;
+        height: 18.75em;
         margin: 3em 0 0 0;
     }
 
     /* Auke Meijer */
     .name {
-        font-family: Montserrat-Bold;
-        color: var(--valley-red);
-        font-size: var(--size-16-px);
-        line-height: var(--paragraph-line-height);
-        letter-spacing: var(--paragraph-letter-spacing-montserrat);
-        margin: 0 0 0 -12em;
+        font-size: var(--size-24-px);
+        margin: 0 0 0 -6em;
     }
 
     .position {
-        font-family: Montserrat-Bold;
-        font-size: var(--size-16-px);
-        line-height: var(--paragraph-line-height);
-        letter-spacing: var(--paragraph-letter-spacing-montserrat);
-        margin: 0 0 0 -13.2em;
+        font-size: var(--size-24-px);
+        margin: 0 0 0 -7.5em;
     }
 
     .mail {
-        font-family: Martel-Light;
-        font-size: var(--size-16-px);
-        line-height: var(--paragraph-line-height);
-        letter-spacing: var(--paragraph-letter-spacing-martel);
-        margin: 0 0 0 -9em;
+        font-size: var(--size-24-px);
+        margin: 0 0 0 -3.3em;
     }
 
     /* Philip Kok */
     .name-2 {
-        font-family: Montserrat-Bold;
-        color: var(--valley-red);
-        font-size: var(--size-16-px);
-        line-height: var(--paragraph-line-height);
-        letter-spacing: var(--paragraph-letter-spacing-montserrat);
-        margin: 0 0 0 -13.2em;
+        font-size: var(--size-24-px);
+        margin: 0 0 0 -7.2em;
     }
 
     .position-2 {
-        font-family: Montserrat-Bold;
-        font-size: var(--size-16-px);
-        line-height: var(--paragraph-line-height);
-        letter-spacing: var(--paragraph-letter-spacing-montserrat);
-        margin: 0 0 0 -16.2em;
+        font-size: var(--size-24-px);
+        margin: 0 0 0 -10.5em;
     }
 
     .mail-2 {
-        font-family: Martel-Light;
-        font-size: var(--size-16-px);
-        line-height: var(--paragraph-line-height);
-        letter-spacing: var(--paragraph-letter-spacing-martel);
-        margin: 0 0 0 -8.5em;
+        font-size: var(--size-24-px);
+        margin: 0 0 0 -2.8em;
+    }
+
+    /* Contact button */  
+    .contact-modal-button {
+        font-family: Montserrat-Bold;
+        color: var(--valley-white);
+        width: 21em;
+        height: 6em;
+        left: 20em;
+        top: 24.5em;
+        background: var(--valley-red);
+        border-radius: 2.625em;
+        border: 1px solid var(--valley-red);
+        margin: 3em 0 3em 0;
+    }
+    
+    .contact-modal-button:hover {
+        background: #d40711;
+        cursor: pointer;
+    }
+
+    .contact-modal-button > h5 {
+        font-size: var(--size-24-px);
+    }
+
+    /* Carousel */
+    .carousel-intro > h4 {
+        font-size: var(--size-36-px);
+    }
+
+    .carousel > h6 {
+        font-size: var(--size-20-px); 
+        margin: 2em 0 3em 7em;
+    }
+
+    .carousel-intro > button {
+        float: right;
+        all: unset;
+        cursor: pointer;
+    }
+    
+    /* Footer */
+    .footer-content > img {  
+        width: 9.38em;
+        height: 3.75em;
+        margin: 1em 0 0 1em;
+    }
+    
+    .footer-content > h6 {
+        font-size: var(--size-20-px);
+    }
+    
+    .contacts {
+        font-size: var(--size-20-px);
+    }
+    
+    .social-media {
+        font-size: var(--size-20-px);
+    }
+    
+    .line {
+        width: 28em;
+    }
+    
+    .footer-end > li {
+        font-size: var(--size-20-px);
     }
 }
