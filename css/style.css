@@ -468,6 +468,7 @@ body {
 }
 
 .contact-modal-button:hover {
+    background: #d40711;
     cursor: pointer;
 }
 
@@ -843,12 +844,12 @@ footer {
     .contact-modal-button {
         font-family: Montserrat-Bold;
         color: var(--valley-white);
-        width: 21em;
-        height: 6em;
+        width: 17em;
+        height: 5em;
         left: 20em;
         top: 24.5em;
         background: var(--valley-red);
-        border-radius: 2.625em;
+        border-radius: 42px;
         border: 1px solid var(--valley-red);
         margin: 3em 0 3em 0;
     }
@@ -891,10 +892,12 @@ footer {
     
     .contacts {
         font-size: var(--size-20-px);
+        margin: 2em 0 2em 6em;
     }
     
     .social-media {
         font-size: var(--size-20-px);
+        margin: 0.3em 0 3em 10em;
     }
     
     .line {
