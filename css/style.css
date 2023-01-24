@@ -88,7 +88,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1.25em 0;
+    padding: 1.35em 0;
     transition: background-color 0.5s ease;
     z-index: 1;
 }
@@ -648,6 +648,17 @@ footer {
 /* Media queries tablet */
 @media only screen and (min-width: 30em) {
 
+    /* Navigation */
+    .sticky-nav {
+        padding: 1.75em 0;
+    }
+    
+    .logo-valley-white {
+        top: 10px;
+        left: 10px;
+        width: 100px;
+    }
+
     /* Introduction */
     .case-study-title {
         font-family: Montserrat-Bold;
@@ -810,34 +821,34 @@ footer {
 
     /* Auke Meijer */
     .name {
-        font-size: var(--size-24-px);
-        margin: 0 0 0 -6em;
+        font-size: var(--size-20-px);
+        margin: 0 0 0 -8.5em;
     }
 
     .position {
-        font-size: var(--size-24-px);
-        margin: 0 0 0 -7.5em;
+        font-size: var(--size-20-px);
+        margin: 0 0 0 -9.8em;
     }
 
     .mail {
-        font-size: var(--size-24-px);
-        margin: 0 0 0 -3.3em;
+        font-size: var(--size-20-px);
+        margin: 0 0 0 -5.5em;
     }
 
     /* Philip Kok */
     .name-2 {
-        font-size: var(--size-24-px);
-        margin: 0 0 0 -7.2em;
+        font-size: var(--size-20-px);
+        margin: 0 0 0 -9.6em;
     }
 
     .position-2 {
-        font-size: var(--size-24-px);
-        margin: 0 0 0 -10.5em;
+        font-size: var(--size-20-px);
+        margin: 0 0 0 -12.8em;
     }
 
     .mail-2 {
-        font-size: var(--size-24-px);
-        margin: 0 0 0 -2.8em;
+        font-size: var(--size-20-px);
+        margin: 0 0 0 -5.1em;
     }
 
     /* Contact button */  
@@ -860,7 +871,7 @@ footer {
     }
 
     .contact-modal-button > h5 {
-        font-size: var(--size-24-px);
+        font-size: var(--size-20-px);
     }
 
     /* Carousel */
