@@ -653,46 +653,17 @@ footer {
 
 
 /* CSS for the intersection observer */
-/* Content */
 .hidden {
     opacity: 0;
     fill: blur(5px);
     transform: translateY(100%);
-    transition: all 0.8s ease;
+    transition: all 1s ease;
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
-}
-
-/* First and last fact */
-.hidden-cards {
-    opacity: 0;
-    fill: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s ease;
-}
-
-.show-cards {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
-
-/* Second fact */
-.hidden-second-card {
-    opacity: 0;
-    fill: blur(5px);
-    transform: translateX(100%);
-    transition: all 1s ease;
-}
-
-.show-second-card {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
 }
 
 /* Media queries tablet */
