@@ -554,6 +554,7 @@ body {
     font-size: var(--size-32-px);
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-martel);
+    margin: 0.5em 0 0 0.5em;
     padding: 1em;
 }
 
@@ -572,10 +573,28 @@ body {
     width: 100%;
 }
 
-.carousel-intro > button {
-    float: right;
+/* Carousel buttons */
+.align-right {
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+.left {
     all: unset;
     cursor: pointer;
+}
+
+.left > img {
+    max-width: 2em;
+}
+
+.right {
+    all: unset;
+    cursor: pointer;
+}
+
+.right > img {
+    max-width: 2em;
 }
 
 .the-valley-office {
@@ -912,10 +931,23 @@ footer {
         margin: 2em 0 3em 7em;
     }
 
-    .carousel-intro > button {
-        float: right;
+    /* Carousel buttons */
+    .left {
         all: unset;
         cursor: pointer;
+    }
+
+    .left > img {
+        max-width: 2em;
+    }
+
+    .right {
+        all: unset;
+        cursor: pointer;
+    }
+
+    .right > img {
+        max-width: 2em;
     }
     
     /* Footer */
