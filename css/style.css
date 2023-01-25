@@ -116,6 +116,21 @@ body {
     padding: 0 1em;
 }
 
+/* CSS for the intersection observer */
+
+.hidden {
+    opacity: 0;
+    fill: blur(5px);
+    transform: translateY(100%);
+    transition: all 1s ease-in;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 /* Header case study */
 .case-study {
     display: grid;
