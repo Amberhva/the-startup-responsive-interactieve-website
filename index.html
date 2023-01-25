@@ -210,23 +210,33 @@
                 </div>
             </section>
 
-            <!-- Modal starts here -->
-                
-            <!-- Modal ends here -->
+            <!-- Carousel starts here -->
+                <section class="carousel-section">
+                    <header class="carousel-intro">
+                        <h4 class="hidden">Serving up another case</h4>    
+                    </header>
 
-            <section class="carousel">
-                <header class="carousel-intro">
-                    <h4 class="hidden">Serving up another case</h4>
-                    <div class="align-right hidden">
-                        <button class="left"><img src="./icons/Icon-Arrow-1.png" alt="Left arrow"></button>
-                        <button class="right"><img src="./icons/Icon-Arrow.png" alt="Right arrow"></button>
+                    <div class="space">
+                        <div class="carousel hidden" data-carousel>
+                            <div class="align-right hidden">
+                                <button class="left" data-carousel-button="prev"><img src="./icons/Icon-Arrow-1.png" alt="Previous button"></button>
+                                <button class="right" data-carousel-button="next"><img src="./icons/Icon-Arrow.png" alt="Next button"></button>
+                            </div>
+    
+                            <ul class="hidden" data-slides>
+                                <li class="slide" data-active>
+                                    <img class="the-valley-office" src="./img/the-valley-office.png" alt="The Valley office">
+                                </li>
+                                <li class="slide">
+                                    <img class="the-valley-bar" src="./img/the-valley-bar.png" alt="The Valley bar">
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </header>
-
-                <img class="the-valley-office hidden" src="./img/the-valley-office.png" alt="The Valley office">
-                <img class="the-valley-bar hidden" src="./img/the-valley-bar.png" alt="The Valley bar">
-                <h6 class="hidden">How we create value</h6>
-            </section>
+                    
+                    <h6 class="hidden">How we create value</h6>
+                </section>
+            <!-- Carousel ends here -->
         </main>
     <!-- Main content ends here -->
 
