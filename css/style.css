@@ -182,7 +182,7 @@ body {
     display: inline-block;
     vertical-align: top;
     width: 8em;
-    margin-left: 0.1em;
+    margin-left: 0.2em;
     margin-bottom: 0.3em;
  }
 
@@ -550,7 +550,7 @@ body {
 
 /* Carousel section*/
 .space {
-    margin-bottom: 19em;
+    margin-bottom: 16em;
 }
 
 .carousel-intro > h4 {
@@ -568,7 +568,7 @@ body {
     font-size: var(--size-16-px); 
     line-height: var(--heading-line-height);
     letter-spacing: var(--heading-letter-spacing-montserrat);
-    margin: 2em 0 3em 3.5em;
+    margin: 2em 0 3em 2.5em;
 }
 
 .carousel-intro > img {
@@ -777,7 +777,7 @@ footer {
         display: inline-block;
         vertical-align: top;
         width: 8em;
-        margin-left: 0.1em;
+        margin-left: 1.5em;
         margin-bottom: 0.3em;
      }
 
