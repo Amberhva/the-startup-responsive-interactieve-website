@@ -28,7 +28,7 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 // Carousel
-
+// Bron: https://www.youtube.com/watch?v=9HcxHDS2w1s
 const buttons = document.querySelectorAll("[data-carousel-button]")
 
 buttons.forEach(button => {
