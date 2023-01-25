@@ -483,6 +483,7 @@ body {
     min-height: 100vh;
 }
 
+/* Images */
 .auke {
     width: 12.5em;
     height: 12.5em;
@@ -590,7 +591,6 @@ body {
 }
 
 /* Footer */
-
 footer {
     background-color: var(--valley-black);
     color: var(--valley-white);
@@ -653,6 +653,7 @@ footer {
 
 
 /* CSS for the intersection observer */
+/* Content */
 .hidden {
     opacity: 0;
     fill: blur(5px);
@@ -666,6 +667,7 @@ footer {
     transform: translateY(0);
 }
 
+/* First and last fact */
 .hidden-cards {
     opacity: 0;
     fill: blur(5px);
@@ -679,6 +681,19 @@ footer {
     transform: translateX(0);
 }
 
+/* Second fact */
+.hidden-second-card {
+    opacity: 0;
+    fill: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s ease;
+}
+
+.show-second-card {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
 
 /* Media queries tablet */
 @media only screen and (min-width: 30em) {
