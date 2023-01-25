@@ -116,21 +116,6 @@ body {
     padding: 0 1em;
 }
 
-/* CSS for the intersection observer */
-
-.hidden {
-    opacity: 0;
-    fill: blur(5px);
-    transform: translateY(100%);
-    transition: all 1s ease-in;
-}
-
-.show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
-
 /* Header case study */
 .case-study {
     display: grid;
@@ -659,6 +644,35 @@ footer {
     display: inline-block;;
     list-style: none;
 }
+
+
+/* CSS for the intersection observer */
+.hidden {
+    opacity: 0;
+    fill: blur(5px);
+    transform: translateY(100%);
+    transition: all 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.hidden-cards {
+    opacity: 0;
+    fill: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s ease;
+}
+
+.show-cards {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 
 /* Media queries tablet */
 @media only screen and (min-width: 30em) {
