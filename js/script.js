@@ -1,5 +1,5 @@
 // Navigation
-let gap = 80;
+let gap = 50;
 
 $(document).ready(function(){
     $(window).bind('scroll', function(){
