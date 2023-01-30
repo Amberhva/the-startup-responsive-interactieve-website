@@ -2,12 +2,21 @@
 Ontwerp en maak een responsive website voor een startup.
 
 ## 📋 Inhoudsopgave 
-Over the Valley<br>
-Design challenge<br>
-Gebruik van de website<br>
+💬 Over the valley <br>
+🎨 Design challenge<br>
+🔖 Gebruik van de website<br>
 🌐 Github Pages<br>
 📑 Checklist gelukt/niet gelukt <br>
-Licentie
+♦️ Licentie
+
+## 💬 Over the valley 
+The Valley is een digitale marketing agency die verschillende diensten biedt voor ondernemers om hun onderneming meer bekendheid te geven. The Valley is een moeder bedrijf van allerlei andere bedrijven. De bedrijven onder The Valley hebben allemaal een dienst wat ze verlenen. Dit zijn design, development, exposure, digital transformation en organization design. Zo hoeft de ondernemer niet een anderd bedrijf erbij te betrekken om bepaalde marketingstrategieën te bereiken. Dit doet The Valley allemaal voor de ondernemer.
+
+## 🎨 Design Challenge 
+Het doel van de opdracht was om een design in Figma responsive te maken voor de mobiel (en tablet). Naast het responsive maken waren er ook een aantal richtlijnen waar we ons aan moesten houden. De richtlijnen waren een aantal verschillende animaties maken, een modal maken en een carousel maken. Het ontwerp voor de desktop mocht niet veranderd worden tenzij dit moet om animaties te realiseren. 
+
+## 🔖 Gebruik van de website
+De gehele website is voorzien van een scroll animatie. Hoe meer je naar beneden scrolled, hoe meer je van de content komt te zien. Dit is met de gehele webpagina zo. Ik heb er ook voor gezorgd dat er een carousel aanwezig is op de website. Zo kan je op een knop drukken en naar de volgende afbeelding gaan. De webpagina is alleen te zien voor op de mobiel en op de tablet.
 
 ## :pencil: Beschrijving
 In het eerste semester van de opleiding FDND hebben we veel geleerd over layout, responsive design, toegankelijkheid, interactie en het werken met een huisstijl. In deze sprint is het de bedoeling om alle dingen die we hebben geleerd, toe te passen om een opdracht voor een opdrachtgever te maken. Mijn opdrachtgever is The Valley en zij gaven mij de opdracht om een deel van hun website, responsive te maken. Naast het responsive maken kreeg ik ook de opdracht om animaties te maken met css/JavaScript, en carousel te maken en een modal te maken. 
