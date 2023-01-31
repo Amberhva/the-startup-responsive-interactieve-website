@@ -2,7 +2,7 @@
 Ontwerp en maak een responsive website voor een startup.
 
 ## 📋 Inhoudsopgave 
-💬 Over the valley <br>
+💬 Over The Valley <br>
 🎨 Design challenge<br>
 🔖 Gebruik van de website<br>
 📸 Poster visual<br>
@@ -10,7 +10,7 @@ Ontwerp en maak een responsive website voor een startup.
 📑 Checklist gelukt/niet gelukt <br>
 ♦️ Licentie
 
-## 💬 Over the valley 
+## 💬 Over The Valley 
 The Valley is een digitale marketing agency die verschillende diensten biedt voor ondernemers om hun onderneming meer bekendheid te geven. The Valley is een moeder bedrijf van allerlei andere bedrijven. De bedrijven onder The Valley hebben allemaal een dienst wat ze verlenen. Dit zijn design, development, exposure, digital transformation en organization design. Zo hoeft de ondernemer niet een anderd bedrijf erbij te betrekken om bepaalde marketingstrategieën te bereiken. Dit doet The Valley allemaal voor de ondernemer.
 
 ## 🎨 Design Challenge 
